@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(248, 243, 243);
+}
+@media only screen and (max-width: 330px){
+    .c>{
+        width: 40px;
+    }
+    
+    .c>nav>ul>{
+        width: 60px;
+        
+    }
+}
+.c{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(250, 252, 251);
+   
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav>ul>li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+nav>ul>li>a:hover{
+  color: violet;
+}
+.detail{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+
+.detail>h1{
+    font-size: 50px;
+    color: black;
+    margin-bottom: 20px;
+}
+span{
+    color: rgb(226, 207, 38);
+}
+.span{
+    color: rgb(143, 56, 56);
+    font-size: 30px;
+}
+.detail>p{
+    color: black;
+    line-height: 22px;
+    text-align: justify;
+}
+.detail>a{
+    background-color: black;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+.image{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.image>img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+.image:hover>.shape{
+    bottom: 40px;
+}
+.image:hover>.girl{
+    left: 45%;
+}
+.edu>h1{
+    text-align: center;
+    color: rgba(88, 6, 6, 0.849); 
+}
+.edu>p{
+    display: inline-flex;
+    padding: 200px 163px  0px;
+    font-weight: 1000px;
+    
+}
+.edu>.p{
+    padding:20px 60px -0px;
+}
+.per>p{
+    display: inline-block;
+    padding: 3px 200px 200px;
+}
+.h{
+       background-color:yellow;
+       color: brown;
+       text-align: center;
+}
+.skills>img{
+    height: 180px;
+    padding: 150px 80px 150px;
+    margin-top: 10px;
+}
+
+.pro>h1{
+    text-align: center;
+    color: brown;
+    background-color: yellow;
+}
+.pro>img{
+  margin-left: 435px; 
+  padding: 150px;  
+}.head{
+    margin-left: 500px;
+    color: rgb(235, 13, 124);
+    padding: 20px;
+   }
+   .education {
+     display: inline-flex;
+     width: 90%;
+    margin-left: 120px;
+   }
+   .sch1{
+       width: 35%; 
+       padding: 5px;  
+   }
+   .sch2{
+       width: 35%; 
+       padding: 5px;
+   }
+   .sch3{
+       width: 30%;
+       font-size: 17px;
+       padding: 5px;
+   
+   }
+   .vi{
+    display: inline-flex;
+    width: 90%;
+   margin-left: 110px;
+   
+   }
+   .v1,.v2{
+       width: 35%;
+   }
+   .v1,.v2,.v3{
+       font-size: 20px;
+   }
+   .v1>p,h4{
+      padding: 8px;
+   }
+   .v2>p,h4{
+       padding: 8px;
+    }
+    .v3>p,h4{
+       padding: 8px;
+    }
+    #sh{
+       padding-left: 550px;
+   
+    }
+    #c{
+       margin-top: 150px;
+    }
+    fieldset{
+       width: 50%;
+       text-align: center;
+       margin-left: 300px;
+       padding: 30px;
+       background-color: rgb(241, 190, 78);
+       border-radius: 25px 25px 25px 25px;
+       box-shadow: 50px;
+    }
